@@ -1,0 +1,5 @@
+# baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "/"
+title = "Terra Incognita"
+theme = "heather-hugo"
+languageCode = "en-us"
