@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Terra Incognita</title>
-    <link>/index.xml</link>
-    <description>Recent content on My Terra Incognita</description>
+    <title>Terra Incognita</title>
+    <link>/</link>
+    <description>Recent content on Terra Incognita</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>quesadaaba@gmail.com (Alejandro Quesada)</managingEditor>
+    <webMaster>quesadaaba@gmail.com (Alejandro Quesada)</webMaster>
     <lastBuildDate>Mon, 21 Nov 2016 18:50:54 -0500</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>&#39;Call me Ishmael&#39;</title>
+      <title>constraints on possibility</title>
       <link>/post/</link>
       <pubDate>Mon, 21 Nov 2016 18:50:54 -0500</pubDate>
-      
+      <author>quesadaaba@gmail.com (Alejandro Quesada)</author>
       <guid>/post/</guid>
-      <description></description>
+      <description>In an intuitive sense, freedom is collated with endless grass fields of creative plight. After all what is to interrupt radiating creative disposition in such a setting? No man or external force to block you way. However in observation and consideration - expression is the swash buckling pirate against tirades of constraint. Is is the shadow that parallels the light, but never quite meeting. Creative or innovative processes are surely sovereign but outputs as would a black hole’s event horizon.</description>
     </item>
     
   </channel>

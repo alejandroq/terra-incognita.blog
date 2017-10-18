@@ -1,0 +1,19 @@
+# baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl: "/"
+title: "Terra Incognita"
+theme: "heather-hugo"
+languageCode: "en-us"
+
+permalinks:
+  post: /:year/:month/:title/
+
+taxonomies:
+  tags: ["meta", "theme", "blog"]
+
+params:
+  description: "Unknown territories"
+  author:
+    name: "Alejandro Quesada"
+    email: "quesadaaba@gmail.com"
+  readMoreLabel: "Read more"
+
