@@ -1,5 +1,4 @@
-# baseurl = "http://replace-this-with-your-hugo-site.com/"
-baseurl: "/"
+baseURL: "http://www.alexq.me"
 title: "Terra Incognita"
 theme: "heather-hugo"
 languageCode: "en-us"
