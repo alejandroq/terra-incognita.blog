@@ -1,7 +1,9 @@
-baseURL: "http://www.alexq.me"
+baseURL: "/"
 title: "Terra Incognita"
 theme: "heather-hugo"
 languageCode: "en-us"
+
+relativeURLs: true
 
 permalinks:
   post: /:year/:month/:title/
