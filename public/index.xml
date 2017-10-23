@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>quesadaaba@gmail.com (Alejandro Quesada)</managingEditor>
     <webMaster>quesadaaba@gmail.com (Alejandro Quesada)</webMaster>
-    <lastBuildDate>Mon, 21 Nov 2016 18:50:54 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 18 Oct 2017 00:40:03 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Polymer in Drupal 8</title>
+      <link>/polymer-drupal-8/</link>
+      <pubDate>Wed, 18 Oct 2017 00:40:03 -0400</pubDate>
+      <author>quesadaaba@gmail.com (Alejandro Quesada)</author>
+      <guid>/polymer-drupal-8/</guid>
+      <description>Obra Theme Git Repo</description>
+    </item>
     
     <item>
       <title>constraints on possibility</title>

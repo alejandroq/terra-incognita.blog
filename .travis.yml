@@ -1,0 +1,11 @@
+language: bash
+branches:
+  only:
+    - master
+    - dev
+services:
+  - docker
+script:
+  - bash -x hugo.sh
+after_success:
+  - bash -x .travis-deploy.sh
