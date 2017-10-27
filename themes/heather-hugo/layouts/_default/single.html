@@ -2,7 +2,16 @@
 <!-- <main class="posts"> -->
 <main>
 <article class="post">
-  <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+  <div class="title-container">
+    <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+    <span class="small gray">
+      {{ .Site.Author.name }}
+      <a href="https://twitter.com/{{ .Site.Author.twitter }}" target="_blank">@{{ .Site.Author.twitter }}</a><br>
+      Original <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02, 2006" }}</time>
+      &nbsp;&nbsp;&nbsp;
+      Updated <time datetime="{{ .Page.Params.update }}">{{ dateFormat "Jan 02, 2006" .Page.Params.update }}</time>
+    </span>
+  </div>
   {{ .Content }}
   <p class="small gray"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02, 2006" }}</time></p>
 </article>
