@@ -5,7 +5,8 @@
 # The test branch is to stage and test updates and can be viewed at https://test.hassiumlabs.com
 #
 
-pip install --user awscli; export PATH=$PATH:$HOME/.local/bin
+pip install awscli --upgrade --user;
+export PATH=$PATH:$HOME/.local/bin;
 
 if [ "$TRAVIS_BRANCH" == "master" ]; then
   aws s3 sync public s3://terraincognita-website-prod/ --acl public-read --delete
