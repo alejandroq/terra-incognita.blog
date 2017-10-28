@@ -154,7 +154,7 @@ polymer init;
 
 ```
 
-5) Build your first Polymer element with a `polymer build` in your Theme's root directory.
+5) Build your first Polymer element via `polymer build` in your Theme's root directory.
 
 6) Create and overwrite Stable Theme's `html.html.twig`:
 ```
@@ -171,7 +171,6 @@ Update the `html.html.twig` to reflect:
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token|raw }}">
     <js-placeholder token="{{ placeholder_token|raw }}">
-
 
     {# MUST FOR POLYMER ELEMENT UTILIZATION #}
     <link rel="import" href="{{ directory }}/build/es6-unbundled/themename-element.html">
@@ -231,6 +230,8 @@ Web Components are modern; they adhere to rigorous testability, reliance on indi
 - [Docksal](https://github.com/docksal/docksal)
 
 <hr>
+Footnotes:
+
 <a name="1"><sup>1</sup></a> Throughout this article I will use Polymer and Web Components interchangeably.
 
 <a name="2"><sup>2</sup></a> Details can be found at [webcomponents.org](https://www.webcomponents.org/introduction).

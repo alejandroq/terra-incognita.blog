@@ -4,7 +4,6 @@ theme: "heather-hugo"
 languageCode: "en-us"
 
 relativeURLs: true
-enableGitInfo: true
 
 permalinks:
   post: /:year/:month/:title/
