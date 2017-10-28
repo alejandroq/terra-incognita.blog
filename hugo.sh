@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 NAME=hugo
-REGISTRY=hassiumlabs
+REGISTRY=alejandroq
 IMAGE="${REGISTRY}/${NAME}"
 
 # The base command to run the hugo container

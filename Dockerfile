@@ -1,7 +1,6 @@
 FROM alpine
 
-# update maintainer and docker image for new hugo
-MAINTAINER andy@hassiumlabs.com
+MAINTAINER quesadaaba@gmail.com
 
 ENV HUGO_VERSION 0.30.2
 
