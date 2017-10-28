@@ -1,6 +1,6 @@
 baseURL: "/"
 title: "Terra Incognita"
-theme: "heather-hugo"
+theme: "obra-hugo"
 languageCode: "en-us"
 
 relativeURLs: true

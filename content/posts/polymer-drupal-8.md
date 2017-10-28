@@ -12,7 +12,7 @@ categories: ["Technology"]
 The web has come long since my joining of the space. Once HTML5, jQuery and AngularJS were magical. However, when scale was introduced my codebases leveraging such became racked with technical debt when optimizations were absent. Technology and 'best practices' are ephemeral in this space as we know. Are we stuck on a hedonic treadmill? Perhaps it is Sisyphean. The answer likely doesn't exist below; but it merits further consideration: Web Component's<a href="#1"><sup>1</sup></a> proximity to the browser platform makes it a candidate for truly interoperable components between a matrix of orchestration technologies (Angular, React, ASP, Drupal, etc).  
 
 ## tl:dr;
-<a href="#cut-to-the-chase">Skip to Setup</a>
+<a href="#cut-to-the-chase">Skip to Polymer 2.0 as orchestrated by Drupal 8.4.* Setup</a>
 
 ## Extend HTML5 with Web Components
 Web Components utilize modern browser features such as Custom Elements, Shadow Dom, HTML Imports and HTML Templates<a href="#2"><sup>2</sup></a>?. For browsers that do not support all of these features, polyfills exist with a small footprint (~36kb in the worst of IE11) in comparison to heavy JS contemporaries. Browsers, like Chrome, that support the aforementioned, have a JS footprint of ~10kb. As per development, the approach undertaken to develop Elements deltas the typical Turing Complete JS approach but lacks no less the flexibility once understood. 

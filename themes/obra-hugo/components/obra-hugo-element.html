@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="obra-hugo-element">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `obra-hugo-element`
+     * Obra Hugo Base Element
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class ObraHugoElement extends Polymer.Element {
+      static get is() { return 'obra-hugo-element'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'obra-hugo-element'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(ObraHugoElement.is, ObraHugoElement);
+  </script>
+</dom-module>
