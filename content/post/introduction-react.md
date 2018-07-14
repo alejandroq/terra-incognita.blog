@@ -1,5 +1,5 @@
 ---
-title: "Introduction to ReactJS"
+title: "An Introduction to ReactJS"
 date: 2018-06-04T23:12:17+02:00
 draft: false
 git: https://github.com/alejandroq/react-intro.tcm.edu
