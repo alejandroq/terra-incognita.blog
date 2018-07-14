@@ -1,17 +1,34 @@
-
-{{ partial "head.html" . }}
+ {{ partial "head.html" . }}
 <main class="posts">
   <article class="post">
     {{ range .Data.Pages }}
-      <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-      <p>{{ .Summary }}</p>
-      <!-- Support heather-hugo users who have not yet added the "Read more" label option to their site config. -->
-      {{ if isset .Site.Params "readMoreLabel" }}
-        <p class="small"><a href="{{ .Permalink }}">{{ .Site.Params.readMoreLabel }} »</a></p>
-      {{ else }}
-        <p class="small"><a href="{{ .Permalink }}">Read more »</a></p>
-      {{ end }}
-    {{ end }}
+    <h1>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h1>
+
+    {{ if (isset .Params "update") -}}
+    <p>
+      Updated
+      <time datetime="{{ .Params.update }}">{{ dateFormat "Jan 02, 2006" .Params.update }}</time>
+    </p>
+    {{ else }}
+    <p>
+      Created
+      <time datetime="{{ .Date.Format " 2006-01-02 " }}">{{ .Date.Format "Jan 02, 2006" }}</time>
+    </p>
+    {{- end}}
+
+    <p>{{ .Summary }}</p>
+
+    {{ if isset .Site.Params "readMoreLabel" }}
+    <p class="small">
+      <a href="{{ .Permalink }}">{{ .Site.Params.readMoreLabel }} »</a>
+    </p>
+    {{ else }}
+    <p class="small">
+      <a href="{{ .Permalink }}">Read more »</a>
+    </p>
+    {{ end }} {{ end }}
   </article>
 </main>
 {{ partial "foot.html" . }}
