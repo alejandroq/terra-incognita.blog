@@ -1,6 +1,6 @@
 baseURL: "/"
 title: "Terra Incognita"
-theme: "heather-hugo"
+theme: "obra-hugo"
 languageCode: "en-us"
 
 relativeURLs: true
@@ -16,5 +16,6 @@ params:
   author:
     name: "Alejandro Quesada"
     email: "quesadaaba@gmail.com"
+    twitter: "redpause"
   readMoreLabel: "Read more"
 

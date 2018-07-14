@@ -1,0 +1,10 @@
+name = "Obra Hugo"
+license = "MIT"
+licenselink = "//opensource.org/licenses/MIT"
+description = "A Hyperminimal Hugo Theme w/ Web Components"
+tags = ["blog"]
+features = ["blog"]
+
+[author]
+  name = "alejandroq"
+  homepage = "//alejandroq.github.io"

@@ -6,6 +6,6 @@ branches:
 services:
   - docker
 script:
-  - bash -x hugo.sh
+  - bash -x hugo
 after_success:
-  - bash -x .travis-deploy.sh
+  - bash -x .travis-deploy
