@@ -15,7 +15,7 @@ _This article was originally part of my "edu" series originally publicized via a
 - [Array Spread](#array-spread)
 - [Importing Modules](#importing-modules)
 - [Classes](#classes)
-- [Promises for simple singular and linear Async transactions (Observables for event streams - see RxJS)](#promises-for-simple-singular-and-linear-async-transactions-observables-for-event-streams---see-rxjs)
+- [Promises for simple async concurrency (Observables for event streams - see RxJS)](#promises-for-simple-async-concurrency-observables-for-event-streams---see-rxjs)
 - [Destructuring](#destructuring)
 - [Template Strings](#template-strings)
 - [Testing the Above](#testing-the-above)
@@ -155,7 +155,7 @@ X.prototype.foo = function() {
 };
 ```
 
-## Promises for simple singular and linear Async transactions (Observables for event streams - see [RxJS](reactivex.io/rxjs))
+## Promises for simple async concurrency (Observables for event streams - see [RxJS](reactivex.io/rxjs))
 
 ```js
 const x = () =>
