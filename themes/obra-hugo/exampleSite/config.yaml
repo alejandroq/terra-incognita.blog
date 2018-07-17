@@ -1,0 +1,21 @@
+baseURL: "/"
+title: "Terra Incognita"
+theme: "obra-hugo"
+languageCode: "en-us"
+
+relativeURLs: true
+
+permalinks:
+  post: /:year/:month/:title/
+
+taxonomies:
+  tags: ["meta", "theme", "blog"]
+
+params:
+  description: "Unknown territories"
+  author:
+    name: "Alejandro Quesada"
+    email: "quesadaaba@gmail.com"
+    twitter: "redpause"
+  readMoreLabel: "Read more"
+

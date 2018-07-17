@@ -1,5 +1,5 @@
 ---
-title: "Jest and Angular 6.*"
+title: "Angular 6.* and Jest"
 date: 2018-07-16T22:03:37+02:00
 draft: false
 ---

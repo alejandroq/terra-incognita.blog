@@ -1,5 +1,5 @@
 ---
-title: "An Introduction to Serverless Applications"
+title: "An Introduction to FaaS"
 date: 2018-05-13T16:32:20+02:00
 update: 2018-07-14T16:32:20+02:00
 draft: false

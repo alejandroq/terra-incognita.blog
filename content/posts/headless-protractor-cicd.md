@@ -1,13 +1,9 @@
 ---
-title: "Open Source: ProtractorJS + Docker = Headless E2E for CI/CD"
+title: "Headless ProtractorJS with Docker"
 date: 2018-07-15T00:18:21+02:00
 draft: false
 git: https://github.com/alejandroq/docker-protractor
 ---
-
-<!--more-->
-
-*Alejandro Quesada v1.0.0*
 
 ## Description
 
